@@ -1,0 +1,27 @@
+body {
+    background-color: #343a40;
+    color: whitesmoke;
+}
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+.container h1 {
+    color: whitesmoke;
+}
+.container h2 {
+    color: whitesmoke;
+}
+.container p {
+    color: whitesmoke;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+}

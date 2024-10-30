@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Piedra, Papel o Tijera</h1>
+        <p>Este simulador permite jugar al Piedra, Papel o Tijera contra Terminator. El jugador elige una opción y Terminator selecciona aleatoriamente. El ganador suma 1 punto y el perdero pierde 1, los empates suman 1 punto a ambos jugadores. El primero en llegar a los 10 puntos gana.</p>
+        <h2>¡EL FUTURO DE LA HUMANIDAD DEPENDE DE TI, MUCHA SUERTE!</h2>
+        <button id="startGame" class="btn btn-primary mt-3">Iniciar Juego</button>
+        <div class="result mt-4">
+            <p>Jugador: <span id="puntajeJugador">0</span></p>
+            <p>Terminator: <span id="puntajeComputadora">0</span></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
